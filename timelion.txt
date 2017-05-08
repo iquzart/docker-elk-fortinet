@@ -1,0 +1,1 @@
+.es(wanin).divide(1048576).lines(fill=2, width=1).color(green).label("Inbound traffic").title("Network traffic (MB/s)"), .es(wanout).derivative().multiply(-1).divide(1048576).lines(fill=2, width=1).color(yellow).label("Outbound traffic").legend(columns=2, position=nw)
